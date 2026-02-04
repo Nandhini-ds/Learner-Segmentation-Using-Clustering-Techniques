@@ -28,15 +28,16 @@ A significant challenge for Scaler is understanding the diverse backgrounds of i
 
 ## Dataset:
 ## Dataset link: https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/002/856/original/scaler_clustering.csv
-Column Name         Description
--------------------------------------------------------
-Unnamed: 0          Index of the dataset
-Email_hash          Anonymised personal identifiable information (PII)
-Company_hash        Anonymized identifier for the company (current employer)
-orgyear             Employment start year
-CTC                 Current cost to company (salary)
-Job_position        Job profile in the company
-CTC_updated_year    Year in which CTC was last updated (increment/promotion)
+
+| Column Name       | Description                                                               |
+|-------------------|---------------------------------------------------------------------------|
+| Unnamed: 0        | Index of the dataset                                                      |
+| Email_hash        | Anonymised personal identifiable information (PII)                        |
+| Company_hash      | Anonymized identifier for the company (current employer)                  |
+| orgyear           | Employment start year                                                     |
+| CTC               | Current cost to company (salary)                                          |
+| Job_position      | Job profile in the company                                                |
+| CTC_updated_year  | Year in which CTC was last updated (increment/promotion)                  |
 
 ## How to Run
 
